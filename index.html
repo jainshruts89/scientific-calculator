@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+<div class="wrap">
+    <form name="myform">
+
+        <input type="text" name="display"><br><br>
+
+
+        <input type="button" name="btnsin" value="sin" onclick="fsin()">
+        <input type="button" name="btncos" value="cos" onclick="fcos()">
+        <input type="button" name="btntan" value="tan" onclick="ftan()">
+        <input type="button" name="btnsqr" value="sqr" onclick="square()">
+        <input type="button" name="btnsqrt" value="rt" onclick="squarert()"><br><br>
+
+
+
+        <input type="button" name="btn7" value="7" onclick="myclick('7')">
+        <input type="button" name="btn8" value="8" onclick="myclick('8')">
+        <input type="button" name="btn9" value="9" onclick="myclick('9')">
+        <input type="button" name="btndel" value="DEL" onclick="backspace()">
+        <input type="button" name="btnac" value="AC" onclick="ac()"><br><br>
+
+        <input type="button" name="btn4" value="4" onclick="myclick('4')">
+        <input type="button" name="btn5" value="5" onclick="myclick('5')">
+        <input type="button" name="btn6" value="6" onclick="myclick('6')">
+        <input type="button" name="btnsub" value="-" onclick="myclick('-')">
+        <input type="button" name="btnadd" value="+" onclick="myclick('+')"><br><br>
+
+        <input type="button" name="btn1" value="1" onclick="myclick('1')">
+        <input type="button" name="btn2" value="2" onclick="myclick('2')">
+        <input type="button" name="btn3" value="3" onclick="myclick('3')">
+        <input type="button" name="btnmul" value="*" onclick="myclick('*')">
+        <input type="button" name="btndiv" value="/" onclick="myclick('/')"><br><br>
+
+        <input type="button" name="btnzero" value="0" onclick="myclick('0')">
+        <input type="button" name="btntwozero" value="00" onclick="myclick('00')">
+        <input type="button" name="btnpoint" value="." onclick="myclick('.')">
+        <input type="button" name="btnm" value="%" onclick="myclick('%')">
+        <input  class="equal" type="button" name="btnequal" value="=" onclick="equalto()"><br><br>
+    </form>
+</div>
+<script src="index.js"></script>
+</body>
+
+
+
+</html>
